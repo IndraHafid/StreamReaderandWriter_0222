@@ -27,6 +27,9 @@ int main()
         outfile << baris << endl;
     }
 
+    //selesai dalam menulis sekarang tutup filenya
+    outfile.close();
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
