@@ -17,6 +17,16 @@ int main()
 
     cout << ">= Menulis File, \'q\' untuk keluar" << endl;
 
+    //unlimited loop untuk menuls 
+    while (true) {
+        //mendapatkan karakter dalam satu baris 
+        getline(cin, baris);
+        //loop akan berhenti jika anda memasukan karakter q
+        if (baris == "q") break;
+        //menulis dan memasukan nilai dari 'baris' kedalam file
+        outfile << baris << endl;
+    }
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
