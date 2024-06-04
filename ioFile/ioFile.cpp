@@ -49,6 +49,9 @@ int main()
         //tutup file tersebut setelah selesai
         infile.close();
     }
+    //jika tidak ditemukan file maka akan menamilkan ini
+    else cout << "Unable to open file";
+    return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
