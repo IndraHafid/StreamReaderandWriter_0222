@@ -4,9 +4,19 @@
 #include <iostream>
 #include <string>
 
+using namespace std;
+
 int main()
 {
-    std::cout << "Hello World!\n";
+    string baris;
+
+    //memebuat file dalam mode menulis.
+    ofstream outfile;
+    //menunjuk ke sebuah nama file.
+    outfile.open("contohfile.txt");
+
+    cout << ">= Menulis File, \'q\' untuk keluar" << endl;
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
