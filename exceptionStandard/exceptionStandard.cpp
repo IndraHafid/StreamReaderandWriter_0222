@@ -23,7 +23,9 @@ int main()
         cout << e.what() << endl;
         //akan dieksekusi karna array data hanya memiliki 3 elemen
     }
-    
+    cout << "baris program yang Terakhir" << endl;
+    //penanda 2: bahwa program berjalan tanpa berhenti meskipun terjadi kesalahan 
+    return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
